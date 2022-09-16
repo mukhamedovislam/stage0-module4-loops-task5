@@ -8,7 +8,7 @@ public class Hourglass {
 			if((i <= j && (i + j) < height) || (i >= j && (i + j) >= height - 1)){
 				System.out.print(eight);
 			} else {
-				System.out.print("");
+				System.out.print(" ");
 			}
 		}
 		System.out.println();
